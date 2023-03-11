@@ -11,7 +11,7 @@ Structure
             Equipment
             Techniques
 		
-	b.  Figure skating Spotlight (most viewed)
+	b.  Figure skating Spotlight (most viewed articles)
 
 2.	Features
     a.	Top stories
