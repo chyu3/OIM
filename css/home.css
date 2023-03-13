@@ -2379,10 +2379,21 @@ div#preloader {
     
 }
 
+.subscribe-t{
+	background-color: #8b8579;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
 .subscribe h1{
     color: orange;
 }
 
+.subscribe-t h1{
+	color: orange;
+}
 
 /* features */
 .grid2{
@@ -2410,9 +2421,9 @@ div#preloader {
     position:relative;
 	display:table;
 	width:100%;
-	margin-top:5rem;
 	text-align:center;
     color: #ffffff;
+
 	
 }
 
@@ -2423,6 +2434,7 @@ div#preloader {
     padding: 7px;
     min-width: 180px;
     margin: 0 auto;
+	background-color: #585858;
 }
 
 .u{
@@ -2435,15 +2447,17 @@ div#preloader {
     display: grid;
     grid-template-columns: auto;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 p.descrip{
-    padding: 0 10px;
-    margin: 12px 0;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-left: 10px;
     color: #222;
     font-weight: 500;
     font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     line-height: 26px;
     display: -webkit-box;
@@ -2465,4 +2479,95 @@ p.descrip{
     cursor: pointer;
     border: 0;
     background-color: #dcdcdc;
+}
+
+
+
+/* Technicals */
+.technical{
+	text-align: center;
+    background-color: #8b8579;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+h2.technicals-header{
+    text-align: center;
+    color:#313131;
+}
+
+.grid3{
+	display: grid;
+    grid-template-columns: auto ;
+    row-gap: 40px;
+    padding: 7px;
+    min-width: 180px;
+    margin: 0 auto;
+}
+
+.grid3 > div{
+    /* background-color: rgb(255, 255, 255); */
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+h4.descrip{
+	font-size: 15px;
+}
+
+.grid3-1{
+	display: grid;
+	column-gap: 20px;
+	font-size: 13px;
+	grid-template-columns: auto auto auto;;
+	background-color: #bcbcbc;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.grid3-2{
+	display: grid;
+	column-gap: 20px;
+	font-size: 13px;
+	grid-template-columns: auto auto auto;
+	background-color: #c7a87d;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.grid4{
+	display: grid;
+    grid-template-columns: auto ;
+    row-gap: 40px;
+    padding: 7px;
+    min-width: 180px;
+    margin: 0 auto;
+}
+
+.grid4-1{
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* history */
+a.video{
+	color: white;
+	text-align: center;
+	font-size: large;
+}
+
+a.video{
+	display: block;
+	
+}
+
+.history{
+	display: grid;
+	grid-template-columns: auto;
+}
+
+.history1{
+	align-items: center;
 }
