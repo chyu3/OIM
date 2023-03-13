@@ -14,7 +14,8 @@
         <link rel="shortcut icon" href="#">
         <link rel="stylesheet" type="text/css" href="css/home.css"/>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic"/>
-
+        
+        <script type="text/javascript" src="home.js"></script>
     </head>
     
     <body class="home">
@@ -28,7 +29,7 @@
                 <li class="nav-olympics" role="presentation"><a href="Olympics.html">Olympics</a></li>
                 <li class="nav-history" role="presentation"><a href="History.html">History</a></li>
                 <li class="nav-equipment" role="presentation"><a href="Equipment.html">Equipment</a></li>
-                <li class="nav-techniques" role="presentation"><a href="Techniques.html">Techniques</a></li>
+                <li class="nav-techniques" role="presentation"><a href="Technicals.html">Techniques</a></li>
             </ul>
         </nav>
 
@@ -53,10 +54,12 @@
         <main id="content" class="content" role="main">
             <div class="wraps">
                 <img src="" class="">
-                <div class="grid">
+                <div class="grid1">
 
-                    <div class="grid-item">
+                    <!-- article 1 -->
+                    <div class="grid1-item">
                         <article class="post">
+                            <img src="images/article1.png">
                             <div class="wrapgriditem">
                                 <header class="post-header">
                                     <h2 class="post-title"><a href="https://olympics.com/en/news/figure-skating-hanyu-yuzuru-gift-tokyo-dome">Hanyu Yuzuru "Gift"</a></h2>
@@ -77,38 +80,98 @@
                     </div>
 
 
-                    <div class="grid-item">
-                        <article class="post tag-romance">
-                        <a href="article.html"><img src=".html"></a>
+                    <!-- article 2 -->
+                    <div class="grid1-item">
+                        <article class="post">
+                        <img src="images/article2.jpg">
                         <div class="wrapgriditem">
                             <header class="post-header">
-                            <h2 class="post-title"><a href="article.html">Dare to try, dare to explore</a></h2>
+                            <h2 class="post-title"><a href="https://www.theguardian.com/sport/2022/sep/15/the-craziest-thing-ever-on-ice-teenager-malinin-lands-first-quad-axel-in-history">Teenager Malinin lands first quad axel in history</a></h2>
                             </header>
                             <section class="post-excerpt">
                             <p>
-                                I noticed near the house a vegetable garden, with the usual variety of vegetables. In another inclosure was the commencement of an extensive vineyard, the fruit <a class="read-more" href="article.html">&raquo;</a>
+                                Ilia Malinin made history on Wednesday when the 17-year-old, and the heir apparent to Olympic champion Nathan Chen among American figure skaters, successfully landed the first quad axel in competition.
                             </p>
                             </section>
                             <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
-                            <a href="author.html">David</a>
-                            on <a href="#">romance</a>
-                            <time class="post-date" datetime="2016-12-18">18 December 2016</time>
+                            <img class="author-thumb" src="images/author2.png" alt="A2" nopin="nopin"/>
+                            <a href="https://www.theguardian.com/sport/figure-skating">The Guardian</a>
+                            <time class="post-date" datetime="2022">15 September 2022</time>
+                            </footer>
+                        </div>
+                        </article>
+                    </div>
+
+                    <!-- article 3 -->
+                    <div class="grid1-item">
+                        <article class="post">
+                        <img src="images/article3.png">
+                        <div class="wrapgriditem">
+                            <header class="post-header">
+                            <h2 class="post-title"><a href="article.html">Kamila Valieva Recreates Viral 'Wednesday' Dance</a></h2>
+                            </header>
+                            <section class="post-excerpt">
+                            <p>
+                                The 16-year-old athlete took home the silver in the women's senior championship division for her routine, which paid homage to the hit Netflix series Wednesday with a move-for-move recreation of Jenna Ortega's viral Wednesday Addams dance.
+                            </p>
+                            </section>
+                            <footer class="post-meta">
+                            <img class="author-thumb" src="images/author3.png" alt="A3" nopin="nopin"/>
+                            <a href="https://people.com/"> People</a>
+                            <time class="post-date" datetime="2022">29 December 2022</time>
                             </footer>
                         </div>
                         </article>
                     </div>
 
 
+                    <!-- article 4 -->
+                    <div class="grid1-item">
+                        <article class="post">
+                        <img src="images/article4.jpg">
+                        <div class="wrapgriditem">
+                            <header class="post-header">
+                            <h2 class="post-title"><a href="https://www.mirror.co.uk/tv/tv-news/petrified-dancing-ice-star-make-29436371">'Petrified' Dancing On Ice star to make history in final with dangerous move
+                            </a></h2>
+                            </header>
+                            <section class="post-excerpt">
+                            <p>
+                                Olympic gymnast Nile Wilson, 27, has revealed he will make history this tonight by performing a move so dangerous it's been banned by the International Skating Union (ISU), which governs competitive skating.
+                            </p>
+                            </section>
+                            <footer class="post-meta">
+                            <img class="author-thumb" src="images/author4.png" alt="A4" nopin="nopin"/>
+                            <a href="https://www.mirror.co.uk/">Mirror</a>
+                            <time class="post-date" datetime="2023">12 March 2023</time>
+                            </footer>
+                        </div>
+                        </article>
+                    </div>
+
                 </div>
             </div>
         </main>
 
+        <div class="subscribe">
+            <h1 class="subscribe-text">
+                Subscribe to our magazine now!
+            </h1>
+
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+                Email: <input type="text" name="fname">
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+
+        <br>
+
         <footer class="site-footer clearfix">
+            <!-- link back to top of the page -->
             <a href="#top" id="back-to-top" class="back-top"></a>
-            <div class="text-center">Chen Hsin Yu</a> &copy; 2023<br/>
-                About us <a href="https://wowthemes.net">WowThemes.net</a>
-            </div>
+                <div class="text-center">Chen Hsin Yu</a> &copy; 2023<br/>
+                    About us <a href="https://www.sim.edu.sg/degrees-diplomas/sim-global-education/university-partners-sim-ge/university-of-london">
+                    Singapore Institute of Management/UOL</a>
+                </div>
         </footer>
 
 
