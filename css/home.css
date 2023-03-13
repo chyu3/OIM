@@ -2636,3 +2636,12 @@ a.video{
 	align-items: center;
 }
 
+.report{
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.report h1{
+	font-size: 20px;
+}
